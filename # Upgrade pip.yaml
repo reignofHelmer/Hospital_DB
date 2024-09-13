@@ -1,0 +1,20 @@
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install core libraries for facial recognition
+pip install opencv-python
+pip install dlib
+pip install face-recognition
+pip install numpy
+
+# Install TensorFlow and Keras (optional, for deep learning models)
+pip install tensorflow keras
+
+# Install PostgreSQL adapter for Python
+pip install psycopg2-binary
+
+# Install Flask (lightweight option for web framework)
+pip install flask
+
+# OR Install Django (if you choose this later)
+pip install django
